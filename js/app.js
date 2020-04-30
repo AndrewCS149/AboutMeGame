@@ -58,6 +58,19 @@ if(questionDesigner.toLowerCase() === 'yes' || questionDesigner.toLowerCase() ==
   alert('answer yes or no');
 }
 
+alert('you have 10 guesses. Guess 1-10');
+
+var answer = 3;
+var guess = prompt('what is your guess?');
+
+for (i=0; i<10; i++){
+  if (answer == guess){
+    alert('you guessed correctly');
+    break;
+  } else {
+      guess = prompt('please try again');
+  }
+}
 
 
 
