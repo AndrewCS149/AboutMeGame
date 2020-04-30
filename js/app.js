@@ -45,6 +45,7 @@ if (questionDesigner.toLowerCase() === 'yes' || questionDesigner.toLowerCase() =
 } else {
   alert('answer yes or no');
 }
+
 alert('you have 10 guesses. Guess 1-10');
 var answer = 3;
 var guess = prompt('what is your guess?');
@@ -76,4 +77,4 @@ for (i = 0; i < 6; i++) {
     alert('Wrong. Try again.');
   }
 }
-// (guessingGame.toLowerCase() === 'no' || guessingGame.toLowerCase() === 'n')
+
